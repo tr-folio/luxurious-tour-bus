@@ -1,0 +1,33 @@
+/* Services Container Styles */
+.services-container {
+    background-image: url('../../Images/services-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.all-services {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+/* Media Queries */
+/* Medium Devices */
+@media only screen and (max-width: 992px) {
+    .all-services {
+        width: 650px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Small Devices */
+@media only screen and (max-width: 768px) {
+    .all-services {
+        width: 320px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

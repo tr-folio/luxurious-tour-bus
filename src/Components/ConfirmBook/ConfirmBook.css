@@ -1,0 +1,28 @@
+.service-detail {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../Images/service-detail-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected-service-info {
+    width: 300px;
+}
+
+.service-detail-image img {
+    width: 300px;
+    height: 250px;
+}
+
+.confirm-visit-btn a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.confirm-visit-btn a:hover {
+    text-decoration: underline;
+}

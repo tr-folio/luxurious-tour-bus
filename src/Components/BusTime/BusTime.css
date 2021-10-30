@@ -1,0 +1,16 @@
+.visit-time-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../Images/bus-time-bg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.visit-time {
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}

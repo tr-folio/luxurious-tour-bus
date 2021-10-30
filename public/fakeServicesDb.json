@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "servicename": "City Tour",
+      "description": "Our city tour service includes all of the famous and historic places of the city. We will ensure a comfortable and safe journey.",
+      "img": "https://i.ibb.co/zmTcfWb/joshua-bayliss-w-BQtmq-m-Af-Q-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "servicename": "Cold Tour",
+        "description": "Our cold tour service includes an epic bus journey to the land of snow. We will ensure a comfortable and safe journey.",
+        "img": "https://i.ibb.co/3Rm6HDK/igor-stepanov-amvj-Vnf-Yt-YQ-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "servicename": "Beach Tour",
+        "description": "Our beach tour service includes an enjoyable bus journey to the tropical shiny seabeach. Book your ticket now and have fun.",
+        "img": "https://i.ibb.co/2svx8Zx/tyler-nix-6mze64-HRU2-Q-unsplash.jpg"
+    },
+    {
+        "id": 4,
+        "servicename": "Desert Tour",
+        "description": "Our desert tour service includes an exciting bus journey to the cactus farm from the canyon side. Book your ticket now.",
+        "img": "https://i.ibb.co/BngrVT0/robert-penaloza-Pt-YRyp-G0y-KU-unsplash.jpg"
+    },
+    {
+        "id": 5,
+        "servicename": "Mountain Tour",
+        "description": "Our mountain tour service includes an exciting bus journey to the waterfall from mountain side lake. Book your ticket now.",
+        "img": "https://i.ibb.co/vBXhf24/car-1174294.jpg"
+    },
+    {
+        "id": 6,
+        "servicename": "Jungle Tour",
+        "description": "Our jungle tour service includes a bus journey through the safari park to enjoy the wildlife animals. Book your ticket now.",
+        "img": "https://i.ibb.co/9y3BkM4/chuttersnap-CEub-YUy-SRo4-unsplash.jpg"
+    }
+  ]
