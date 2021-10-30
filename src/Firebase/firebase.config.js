@@ -1,16 +1,16 @@
 const firebaseConfig = {
 
-    apiKey: "AIzaSyBN3C4Gi_APcJwmyXnb1hAoWqetXm52Xdg",
+    apiKey: process.env.REACT_APP_API_KEY,
   
-    authDomain: "tour-bus-service.firebaseapp.com",
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
   
-    projectId: "tour-bus-service",
+    projectId: process.env.REACT_APP_PROJECT_ID,
   
-    storageBucket: "tour-bus-service.appspot.com",
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
   
-    messagingSenderId: "911846813671",
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
   
-    appId: "1:911846813671:web:c63d498d30b3881c261742"
+    appId: process.env.REACT_APP_APP_ID
   
   };
   
