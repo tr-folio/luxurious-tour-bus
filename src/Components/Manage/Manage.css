@@ -1,0 +1,30 @@
+.manage-bookings {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../Images/bus-time-bg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+.bookings-container {
+    margin-top: 300px;
+}
+
+.bookings-container > h3 {
+    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.all-bookings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}

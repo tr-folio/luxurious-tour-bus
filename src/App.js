@@ -11,7 +11,7 @@ import Login from './Components/Login/Login';
 import NotFound from './Components/NotFound/NotFound';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import ServiceDetail from './Components/ServiceDetail/ServiceDetail';
-import BusTime from './Components/BusTime/BusTime';
+import Manage from './Components/Manage/Manage';
 import AuthProvider from './Context/AuthProvider';
 
 function App() {
@@ -30,8 +30,8 @@ function App() {
             <PrivateRoute path="/confirmBook">
               <ConfirmBook></ConfirmBook>
             </PrivateRoute>
-            <PrivateRoute path="/busTime">
-              <BusTime></BusTime>
+            <PrivateRoute path="/manage">
+              <Manage></Manage>
             </PrivateRoute>
             <Route path="/login">
               <Login></Login>
