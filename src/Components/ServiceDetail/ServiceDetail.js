@@ -1,11 +1,11 @@
 import { useParams } from "react-router";
-import useFakeServicesDb from "../../Hooks/useFakeServicesDb";
+import useServicesDb from "../../Hooks/useServicesDb";
 import ConfirmBook from "../ConfirmBook/ConfirmBook";
 
 const ServiceDetail = () => {
     const {id} = useParams();
     console.log(id)
-    const services = useFakeServicesDb();
+    const services = useServicesDb();
     console.log(services);
     return (
         <div>

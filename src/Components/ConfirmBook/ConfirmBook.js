@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 import './ConfirmBook.css';
 
@@ -46,7 +45,7 @@ const ConfirmVisit = (props) => {
             phone: phone
         };
         console.log(newBooking);
-        fetch('http://localhost:5000/booking', {
+        fetch('https://desolate-savannah-73314.herokuapp.com/booking', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

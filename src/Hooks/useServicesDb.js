@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const useFakeServicesDb = () => {
+const useServicesDb = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('https://desolate-savannah-73314.herokuapp.com/services')
@@ -10,4 +10,4 @@ const useFakeServicesDb = () => {
     return services;
 }
 
-export default useFakeServicesDb;
+export default useServicesDb;

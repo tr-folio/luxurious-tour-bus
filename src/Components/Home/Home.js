@@ -6,10 +6,10 @@ import img2 from "../../Images/img2.jpg";
 import img3 from "../../Images/img3.jpg";
 import Service from "../Service/Service";
 import Footer from "../Footer/Footer";
-import useFakeServicesDb from "../../Hooks/useFakeServicesDb";
+import useServicesDb from "../../Hooks/useServicesDb";
 
 const Home = () => {
-    const services = useFakeServicesDb();
+    const services = useServicesDb();
     // console.log(services);
     return (
         <>
