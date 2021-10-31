@@ -1,3 +1,13 @@
+/* utility styles */
+body {
+    background-color: rgb(49, 49, 49);
+}
+
+.custom-containers {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /* Services Container Styles */
 .services-container {
     background-image: url('../../Images/services-background.jpg');
