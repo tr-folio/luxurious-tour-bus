@@ -1,17 +1,18 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
 import './ConfirmBook.css';
 
 const ConfirmVisit = (props) => {
     const user = useAuth();
+    const [msg, setMsg] = useState('');
     const userName = user.user.displayName;
     const userEmail = user.user.email;
     const addressRef = useRef();
     const phoneRef = useRef();
-    let ticketNO = Math.random()*20;
+    let ticketNO = Math.random()*40;
     ticketNO = parseInt(ticketNO);
-    let busTime = Math.random()*(11-7)+7;
+    let busTime = Math.random()*(11-6)+6;
     busTime = parseInt(busTime);
     let i = 0;
     const id = props.id;
@@ -52,7 +53,10 @@ const ConfirmVisit = (props) => {
             },
             body: JSON.stringify(newBooking)
         })
-        .then(error => console.log(error.message))
+        .then(res => {
+            console.log(res);
+            setMsg('Booking successful');
+        })
     }
 
     return (
@@ -77,7 +81,7 @@ const ConfirmVisit = (props) => {
                     <br/> <br/>
                     <input type="submit" value="Submit"/>
                 </form>
-                <p className="px-2"><button className="confirm-visit-btn bg-dark px-5 py-2"><Link to="/busTime">Confirm Book</Link></button></p>
+                <p className="px-2 text-success">{msg}</p>
             </div>
         </div>
     );
