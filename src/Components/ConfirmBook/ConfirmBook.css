@@ -5,12 +5,16 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    position: fixed;
     justify-content: center;
     align-items: center;
+    overflow-y: scroll;
+    padding: 100px;
 }
 
 .selected-service-info {
     width: 300px;
+    margin-top: 400px;
 }
 
 .service-detail-image img {

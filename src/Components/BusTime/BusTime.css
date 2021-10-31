@@ -1,4 +1,4 @@
-.visit-time-container {
+.bus-time-container {
     width: 100vw;
     height: 100vh;
     background-image: url('../../Images/bus-time-bg.jpg');
@@ -8,7 +8,7 @@
     padding: 20px;
 }
 
-.visit-time {
+.bus-time {
     background-color: rgb(0, 0, 0, 0.8);
     color: white;
     padding: 20px;
