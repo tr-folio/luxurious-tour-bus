@@ -6,12 +6,11 @@ Using this website, one can book ticket for his tour on vacation. We have mounta
 
 ### `Website Features`
 
-* Online tour bus book ticket system
+* Architected luxurious tour bus services, including city, cold, beach, desert, mountain, and forest tours.
 * Booking review by confirming on confrimation page
-* Sign in with Google
-* Manage booking page i.e. one can cancel booking if needed
-* 24/7 support
-* Latest environment friendly and comfortable coaches
+* Developed secured login/register system and Google sign-in option with Firebase.
+* Protected ticket booking confirmation page to ensure a user to login before booking a ticket.
+* One can choose a tour from variety of types.
 
 ## Live Site
 Firebase Live Site Link: https://tour-bus-service.web.app/
