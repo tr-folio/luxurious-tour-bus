@@ -13,6 +13,7 @@ import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import ServiceDetail from './Components/ServiceDetail/ServiceDetail';
 import Manage from './Components/Manage/Manage';
 import AuthProvider from './Context/AuthProvider';
+import SignUp from './Components/Login/SignUp';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
             </PrivateRoute>
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <Route path="/signup">
+              <SignUp></SignUp>
             </Route>
             <Route exact path="/">
               <Home></Home>

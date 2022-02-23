@@ -25,6 +25,66 @@ body {
     grid-gap: 20px;
 }
 
+/* Latest Update Styles */
+.update-card {
+    width: 250px;
+    text-align: justify;
+    background-color: rgb(30, 30, 30);
+    box-sizing: border-box;
+    padding: 50px 25px 100px 25px;
+    border-radius: 125px;
+}
+
+.update-card-image {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 125px;
+    background-image: url('https://images.unsplash.com/photo-1573812456956-4a85dfc2ed00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGJ1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Travel Anywhere */
+.travel-anywhere-div {
+    max-width: 1920px;
+    height: 600px;
+    background-image: url('https://images.unsplash.com/photo-1570125909517-53cb21c89ff2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVzJTIwdHJhdmVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Contact Us Popup */
+.contact-us-popup-div {
+    position: fixed;
+    width: 100vw;
+    height: 130vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: none;
+}
+
+.contact-us-popup {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(30, 30, 30);
+    padding: 0 25px 25px 25px;
+    position: relative;
+}
+
+.button-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    border: none;
+    background: red;
+    color: white;
+}
+
 /* Media Queries */
 /* Medium Devices */
 @media only screen and (max-width: 992px) {
